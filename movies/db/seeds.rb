@@ -8,10 +8,10 @@
 Film.delete_all
 Viewer.delete_all
 
-film1=Viewer.create(name:"bob",age:20)
-film2=Viewer.create(name:"steve",age:40)
-viewer1=Film.create(title:"star wars",year:1900)
-viewer2=Film.create(title:"lord of the rings",year:2000)
+viewer1=Viewer.create(name:"bob",age:20)
+viewer2=Viewer.create(name:"steve",age:40)
+film1=Film.create(title:"star wars",year:1900)
+film2=Film.create(title:"lord of the rings",year:2000)
 
 film1.viewers<<viewer1
 film1.viewers<<viewer2
